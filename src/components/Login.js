@@ -1,6 +1,7 @@
 import React from "react"
 import { useState } from "react";
 import Electrobank from '../images/ELECTOBANK-logo.png'
+import './styles/Login.css'
 
 const Login = ({setIsLogged}) => {
     const [email, setEmail] = useState('');

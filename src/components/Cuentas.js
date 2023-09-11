@@ -4,6 +4,7 @@ import tarjeta2 from '../images/tarjeta2.png'
 import graficocuentas from '../images/grafico_cuentas.png'
 import graficocuentas2 from '../images/grafico_cuentas2.png'
 import './styles/Cuentas.css';
+import ConversorMoneda from "./ConversorMoneda";
 
 function Cuentas () {
     return (
@@ -44,6 +45,7 @@ function Cuentas () {
                 <img src={graficocuentas2} className="grafico" alt="grafico cuentas bancarias"/>
             </div>
         </div>
+        <ConversorMoneda />
     </div>
     )
 }

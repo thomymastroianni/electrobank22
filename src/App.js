@@ -9,7 +9,8 @@ import Header from './components/Header';
 import MenuLateral from './components/MenuLateral';
 import Layout from './components/Layout';
 import Transferencias from './components/Transferencias';
-
+import Pagos from './components/Pagos';
+import Cuentas from './components/Cuentas';
 
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
         <div>
           <Link to="/">Inicio</Link>
           <Link to="/transferencias">Transferencias</Link>
+          <Link to="/pagos">Pagos</Link>
+          <Link to="/cuentas">Cuentas</Link>
         </div>
         <div>
           <Outlet />
@@ -38,6 +41,8 @@ function App() {
       <Route path='/' element={<Root />}>
         <Route index exact element={<Inicio/>} />
         <Route path="/Transferencias" element={<Transferencias />} />
+        <Route path="/Pagos" element={<Pagos />} />
+        <Route path="/Cuentas" element={<Cuentas />} />
       </Route>  
     )
   )
