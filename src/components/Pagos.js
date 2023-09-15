@@ -4,6 +4,8 @@ import fibertel from '../images/FIBERTEL.png'
 import personal from '../images/PERSONAL.png'
 import visa from '../images/VISA.png'
 import './styles/Pagos.css';
+import Header from './Header';
+import MenuLateral from './MenuLateral';
 
 function Pagos () {
     const pagoExitoso = (event) => {
@@ -13,6 +15,8 @@ function Pagos () {
     }
     return (
     <div>
+        <Header/>
+        <MenuLateral/>
         <h2>Pago de servicios</h2>
         <div class="row">
             <div class="column">

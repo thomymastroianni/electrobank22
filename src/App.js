@@ -1,13 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
-import LayoutProvider from './components/LayoutContext';
-import { BrowserRouter as Router, Route, Switch, createBrowserRouter, createRoutesFromElements, RouterProvider, Outlet, Link } from 'react-router-dom';
+
+import { BrowserRouter as Router, Route, createBrowserRouter, createRoutesFromElements, RouterProvider, Outlet} from 'react-router-dom';
 import Inicio from './components/Inicio';
 import Login from './components/Login';
 import { Fragment, useState } from 'react';
-import Header from './components/Header';
-import MenuLateral from './components/MenuLateral';
-import Layout from './components/Layout';
+
 import Transferencias from './components/Transferencias';
 import Pagos from './components/Pagos';
 import Cuentas from './components/Cuentas';
@@ -23,12 +21,7 @@ function App() {
   const Root = () => {
     return (
       <>
-        <div>
-          <Link to="/">Inicio</Link>
-          <Link to="/transferencias">Transferencias</Link>
-          <Link to="/pagos">Pagos</Link>
-          <Link to="/cuentas">Cuentas</Link>
-        </div>
+        
         <div>
           <Outlet />
         </div>

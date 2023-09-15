@@ -5,10 +5,14 @@ import graficocuentas from '../images/grafico_cuentas.png'
 import graficocuentas2 from '../images/grafico_cuentas2.png'
 import './styles/Cuentas.css';
 import ConversorMoneda from "./ConversorMoneda";
+import Header from './Header';
+import MenuLateral from './MenuLateral';
 
 function Cuentas () {
     return (
         <div>
+        <Header/>
+        <MenuLateral/>
         <div class="row">
             <div class="column">
                 <div class="card">

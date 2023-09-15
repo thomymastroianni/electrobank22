@@ -1,21 +1,21 @@
 import React from 'react';
 import './styles/MenuLateral.css';
-
+import { Link } from "react-router-dom";
 function MenuLateral() {
   return (
     <div className="menu-lateral">
       <ul>
             <li>
-                <a href="Inicio.js">Inicio</a>
+              <Link to="/">Inicio</Link>
             </li>
             <li>
-                <a href="Cuentas.js">Cuentas</a>
+              <Link to="/transferencias">Transferencias</Link>
             </li>
             <li>
-                <a href="Transferencias.js">Transferencias</a>
+              <Link to="/pagos">Pagos</Link>
             </li>
             <li>
-                <a href="Pagos.js">Pagos</a>
+              <Link to="/cuentas">Cuentas</Link>
             </li>
       </ul>
     </div>

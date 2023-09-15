@@ -5,10 +5,14 @@ import Transferencias from "./Transferencias";
 import Header from "./Header";
 import Pagos from "./Pagos";
 import Cuentas from "./Cuentas";
+import MenuLateral from "./MenuLateral";
 
 const Layout = () => {
+
   return (
     <BrowserRouter>
+    <MenuLateral/>
+    <Header/>
     <header>
         <Link to="/">Inicio</Link>
         <Link to="/transferencias">Transferencias</Link>

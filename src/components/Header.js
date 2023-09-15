@@ -1,12 +1,9 @@
 import React from 'react';
 import './styles/Header.css';
 import Electrobank from '../images/ELECTOBANK-logo.png'
-import { useLayout } from './LayoutContext';
-import MenuLateral from './MenuLateral';
+
 
 function Header() {
-    function Header() {
-        const { headerData, menuLateral1 } = useLayout();
 
   const toggleMenu = () => {
     const menuLateral = document.querySelector('.menu-lateral');
@@ -42,6 +39,6 @@ function Header() {
     </header>
   );
 }
-}
+
 
 export default Header;

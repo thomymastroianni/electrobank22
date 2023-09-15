@@ -7,6 +7,7 @@
   pointer-events: none;
 }
 
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +36,69 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* clase del login */
+.body-login {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: fixed; /* Establecer la posición fija */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ancho al 100% de la ventana */
+  height: 100%; /* Altura al 100% de la ventana */
+  background-color: #F35821;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.login-container {
+    width: 300px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.form-login{
+    padding: 40px;
+}
+
+.form-login label, 
+.form-login input {
+    width: 100%;
+    display: block;
+}
+.btn-violeta a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+.converter{
+    margin-bottom: 80px;
+    display: block;
+}
+.btn-violeta:hover {
+    background-color: #F35821
+}
+.btn-violeta {
+    background-color: #370A73;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logo {
+    vertical-align: middle;
+    padding-right: 50px;
+    max-width: 200px;
+}
+main {
+  margin-left: 250px;
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 40px;
+}
+li{
+  list-style-type: none;
 }

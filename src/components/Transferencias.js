@@ -1,5 +1,7 @@
 import React from 'react';
 import './styles/Transferencias.css';
+import Header from './Header';
+import MenuLateral from './MenuLateral';
 
 function Transferencias () {
     const mostrarMensaje = (event) => {
@@ -9,6 +11,8 @@ function Transferencias () {
     }
     return (
     <div>
+        <Header/>
+        <MenuLateral/>
         <h2 className="tituloVioleta">Elige a quien quieres transferir</h2>
         <div className="destinatario cardIzquierda">
             <form onsubmit={mostrarMensaje}>
