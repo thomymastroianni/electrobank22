@@ -1,0 +1,28 @@
+{
+    "transferencias": [
+      {
+        "id": "1",
+        "numero": "123456",
+        "titular": "Juan Pérez",
+        "balance": 1000
+      },
+      {
+        "id": "2",
+        "numero": "789012",
+        "titular": "Ana Gómez",
+        "balance": 1500
+      },
+      {
+        "id": "3",
+        "numero": "345678",
+        "titular": "Carlos Fernández",
+        "balance": 1200
+      },
+      {
+        "id": "4",
+        "numero": "901234",
+        "titular": "Luisa Martínez",
+        "balance": 800
+      }
+    ]
+  }

@@ -3,6 +3,7 @@ import Promociones from "./Promociones";
 import MenuLateral from "./MenuLateral";
 import Header from "./Header";
 import Footer from "./Footer";
+import ContactForm from "./Contacto";
 
 function Inicio () {
     return (
@@ -10,6 +11,7 @@ function Inicio () {
             <Header/>
             <MenuLateral/>
             <Promociones />
+            <ContactForm />
             <Footer/>
         </div>
     );
